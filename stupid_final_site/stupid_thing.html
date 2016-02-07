@@ -1,0 +1,72 @@
+<!-- <html>
+	<head>
+		<title>stupid thing</title>
+	</head>
+	<body>
+		<div id="container_for_stupid_things"></div>	
+
+		<script>
+			var stupid_width = window.innerWidth;
+			var stupid_height = window.innerHeight;
+			var stupid_audio = new Audio('stupid_sound.mp3');
+			var stupid_beat = new Audio('stupid_beat.mp3');
+			var stupid_function = setInterval(create_stupid_horse, 200);
+
+			function create_stupid_horse(){
+				var stupid_element = document.createElement("img");
+				var stupid_random_number = Math.random();
+				if(stupid_random_number < 1.0/3){
+					stupid_element.src = 'stupid_gif_trump.gif';
+				}else if(stupid_random_number < 2 * (1.0/3)){
+					stupid_element.src = 'stupid_gif_mango.gif';
+				}else{
+					stupid_element.src = 'stupid_gif_locoserio.gif';
+				}
+				stupid_element.style.position = "absolute";
+				stupid_element.style.width = String(Math.floor((Math.random() * 300) + 30));
+				stupid_element.style.top = String(Math.floor((Math.random() * stupid_height) + -20)) + "px";
+				stupid_element.style.left = String(Math.floor((Math.random() * stupid_width) + -20)) + "px";
+				document.getElementById("container_for_stupid_things").appendChild(stupid_element);
+				stupid_audio.play();
+				stupid_beat.play();
+			}
+		</script>
+	</body>
+</html>
+ -->
+<html>
+	<head>
+		<title>stupid thing</title>
+	</head>
+	<body>
+		<div id="container_for_stupid_things"></div>
+
+		<script>
+			var stupid_width = window.innerWidth;
+			var stupid_height = window.innerHeight;
+			var stupid_audio = new Audio('stupid_sound.mp3');
+			var stupid_beat = new Audio('stupid_beat.mp3');
+			var stupid_function = setInterval(create_stupid_horse, 200);
+
+			function create_stupid_horse(){
+				var stupid_element = document.createElement("img");
+				var stupid_random_number = Math.random();
+				if(stupid_random_number < 1.0/3){
+				stupid_element.src = 'stupid_gif_trump.gif';
+				}else if(stupid_random_number < 2 * (1.0/3)){
+				stupid_element.src = 'stupid_gif_mango.gif';
+				}else{
+				stupid_element.src = 'stupid_gif_locoserio.gif';
+				}
+				stupid_element.style.position = "absolute";
+				stupid_element.style.width = String(Math.floor((Math.random() * 300) + 30));
+				stupid_element.style.top =String(Math.floor((Math.random() * stupid_height) + -20)) + "px";
+				stupid_element.style.left = String(Math.floor((Math.random() * stupid_width) + -20)) + "px";
+				document.getElementById("container_for_stupid_things").appendChild(stupid_element);
+				stupid_audio.play();
+				stupid_beat.play();
+			}
+		</script>
+	</body>
+</html>
+
